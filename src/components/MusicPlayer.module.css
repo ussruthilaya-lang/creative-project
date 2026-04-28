@@ -1,0 +1,14 @@
+.btn {
+  position: fixed; top: 14px; right: 16px;
+  z-index: 200;
+  background: rgba(253,248,240,0.8);
+  border: 1.5px solid #c9963a;
+  border-radius: 50%;
+  width: 36px; height: 36px;
+  font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: none !important;
+  backdrop-filter: blur(4px);
+  transition: transform 0.2s;
+}
+.btn:hover { transform: scale(1.15); }
